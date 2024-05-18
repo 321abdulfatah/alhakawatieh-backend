@@ -10,12 +10,38 @@ Before you can run the server, you'll need to make sure you have the following i
 
 2. **pip**: pip is the package installer for Python, and it should be installed automatically when you install Python. If you're having trouble with pip, you can follow the [official instructions](https://pip.pypa.io/en/stable/installation/) to install it.
 
-## Installation
+## Running the Server
+
+### Using the `run.bat` file
 
 1. Clone the repository:
 
    ```
-   git clone https://github.com/321abdulfatah/alhakawatieh-backend.git
+   git clone https://github.com/your-username/alhakawatieh-backend.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```
+   cd alhakawatieh-backend
+   ```
+
+3. Run the `run.bat` file:
+
+   ```
+   run.bat
+   ```
+
+   This will install the required Python packages and start the Flask server. Make sure that the `python` and `pip` commands are available in your system's PATH.
+
+   The server will be available at `http://localhost:5004`.
+
+### Without the `run.bat` file
+
+1. Clone the repository:
+
+   ```
+   git clone https://github.com/your-username/alhakawatieh-backend.git
    ```
 
 2. Navigate to the project directory:
@@ -30,25 +56,13 @@ Before you can run the server, you'll need to make sure you have the following i
    pip install -r requirements.txt
    ```
 
-   This will install all the necessary dependencies for the project, as specified in the `requirements.txt` file.
-
-## Running the Server
-
-1. Start the Flask server:
+4. Start the Flask server:
 
    ```
    python app.py
    ```
 
    This will start the Flask server and make it available on `http://localhost:5004`.
-
-2. You should see the following output in the console:
-
-   ```
-   * Running on http://0.0.0.0:5004/ (Press CTRL+C to quit)
-   ```
-
-   This means that the server is running and listening for incoming requests on port 5004.
 
 ## Endpoints
 
