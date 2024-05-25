@@ -17,7 +17,7 @@ Before you can run the server, you'll need to make sure you have the following i
 1. Clone the repository:
 
    ```
-   git clone https://github.com/your-username/alhakawatieh-backend.git
+   git clone https://github.com/321abdulfatah/alhakawatieh-backend.git
    ```
 
 2. Navigate to the project directory:
